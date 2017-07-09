@@ -11,9 +11,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window = UIWindow(frame: UIScreen.main.bounds)
         if let window = window {
-            let mainViewController = MainViewController()
-            window.rootViewController = mainViewController
-            application.statusBarStyle = UIStatusBarStyle.lightContent
+//            let mainViewController = MainViewController()
+            let mainViewController = NoPhotosInGalleryViewController()
+            let navigationController = UINavigationController(rootViewController: mainViewController)
+            window.rootViewController = navigationController
+
+//            application.statusBarStyle = UIStatusBarStyle.lightContent
             window.makeKeyAndVisible()
         }
 

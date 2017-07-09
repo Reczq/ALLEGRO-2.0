@@ -65,6 +65,8 @@
 		B4E564601E9C45E4005E1B01 /* MainViewController+GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5645F1E9C45E4005E1B01 /* MainViewController+GetData.swift */; };
 		B4E564611E9E57C9005E1B01 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B457C1941E8C0DC90038F3A0 /* Info.plist */; };
 		B4F1FD631ECB28B5000BF1CB /* ImageWithDescriptionInBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1FD621ECB28B5000BF1CB /* ImageWithDescriptionInBackgroundView.swift */; };
+		B4FFAB431F1229CC00654506 /* NoPhotosInGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FFAB421F1229CC00654506 /* NoPhotosInGalleryViewController.swift */; };
+		B4FFAB451F122A3300654506 /* NoPhotosInGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FFAB441F122A3300654506 /* NoPhotosInGalleryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +150,8 @@
 		B49B6B161E91D58100F1F03F /* UIView+AddBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddBorder.swift"; sourceTree = "<group>"; };
 		B4E5645F1E9C45E4005E1B01 /* MainViewController+GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+GetData.swift"; sourceTree = "<group>"; };
 		B4F1FD621ECB28B5000BF1CB /* ImageWithDescriptionInBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageWithDescriptionInBackgroundView.swift; sourceTree = "<group>"; };
+		B4FFAB421F1229CC00654506 /* NoPhotosInGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPhotosInGalleryViewController.swift; sourceTree = "<group>"; };
+		B4FFAB441F122A3300654506 /* NoPhotosInGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPhotosInGalleryView.swift; sourceTree = "<group>"; };
 		B6A21DF13DA0102A40A5B48E /* Pods-DominikReczek-CVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominikReczek-CVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DominikReczek-CVTests/Pods-DominikReczek-CVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9F6DAF70CD06C6D7EC0C3EE /* Pods-DominikReczek-CV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominikReczek-CV.release.xcconfig"; path = "Pods/Target Support Files/Pods-DominikReczek-CV/Pods-DominikReczek-CV.release.xcconfig"; sourceTree = "<group>"; };
 		BDA53623E898E7208CB51F68 /* Pods-DominikReczek-CVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DominikReczek-CVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DominikReczek-CVUITests/Pods-DominikReczek-CVUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +232,8 @@
 		B457C1711E8C0DC90038F3A0 /* DominikReczek-CV */ = {
 			isa = PBXGroup;
 			children = (
+				B4FFAB421F1229CC00654506 /* NoPhotosInGalleryViewController.swift */,
+				B4FFAB441F122A3300654506 /* NoPhotosInGalleryView.swift */,
 				B457C1CD1E8C0E7D0038F3A0 /* API */,
 				B457C1C01E8C0E7D0038F3A0 /* Models */,
 				B457C1B21E8C0E7D0038F3A0 /* Main */,
@@ -722,6 +728,7 @@
 				B457C1FA1E8C0E7E0038F3A0 /* APIResultModelProtocol.swift in Sources */,
 				B457C1F01E8C0E7D0038F3A0 /* MainViewController.swift in Sources */,
 				B457C20A1E8C0E7E0038F3A0 /* APIHobbysDataParser.swift in Sources */,
+				B4FFAB431F1229CC00654506 /* NoPhotosInGalleryViewController.swift in Sources */,
 				B457C20B1E8C0E7E0038F3A0 /* APIResultParserProtocol.swift in Sources */,
 				B457C1F31E8C0E7E0038F3A0 /* ExperienceView.swift in Sources */,
 				B457C1F91E8C0E7E0038F3A0 /* APIHobbysDataModel.swift in Sources */,
@@ -740,6 +747,7 @@
 				B49B6B171E91D58100F1F03F /* UIView+AddBorder.swift in Sources */,
 				B4F1FD631ECB28B5000BF1CB /* ImageWithDescriptionInBackgroundView.swift in Sources */,
 				B457C20C1E8C0E7E0038F3A0 /* APISkillsDataParser.swift in Sources */,
+				B4FFAB451F122A3300654506 /* NoPhotosInGalleryView.swift in Sources */,
 				B457C1EB1E8C0E7D0038F3A0 /* BasicDataViewController.swift in Sources */,
 				B40CBC031ECC662000B4F278 /* ContactInfoPopUpView.swift in Sources */,
 				B457C2021E8C0E7E0038F3A0 /* APIHobbysDataManager.swift in Sources */,
